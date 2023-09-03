@@ -1,81 +1,53 @@
-# Turborepo starter
+<img width="1440" alt="image" src="https://github.com/sarimrmalik/endo/assets/60831757/2cf3d4d6-9266-4f38-a4b5-ea78c9bb60da">
 
-This is an official starter Turborepo.
+<h1 align="center">Endo</h1>
 
-## Using this example
+<p align="center">
+  Dead-simple menubar app for taking notes on your mac. 
+</p>
 
-Run the following command:
+## Introduction
 
-```sh
-npx create-turbo@latest
+This is a [Next.js](https://nextjs.org/) and [Tauri](https://tauri.app/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and [`tauri init`](https://tauri.app/v1/guides/getting-started/setup/next-js/#create-the-rust-project). The text editor is an instance of [Tiptap](https://tiptap.dev/). The CSS is primarily [Tailwind](https://tailwindcss.com/docs).
+
+_Note: This repo is tested for macOS primarily, running on Windows may require additional debugging._
+
+## Getting Started
+
+First, make sure you are set up to run a Rust project. [Check documentation here](https://tauri.app/v1/guides/getting-started/prerequisites#setting-up-macos).
+
+Clone the repo, install depedancies, and run the development server:
+
+```bash
+npm install
+npm run tauri dev
 ```
 
-## What's inside?
+The local instance of the app should show in your menubar at this point.
 
-This Turborepo includes the following packages/apps:
+If you want to run the frontend only:
 
-### Apps and Packages
-
-- `docs`: a [Next.js](https://nextjs.org/) app
-- `web`: another [Next.js](https://nextjs.org/) app
-- `ui`: a stub React component library shared by both `web` and `docs` applications
-- `eslint-config-custom`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `tsconfig`: `tsconfig.json`s used throughout the monorepo
-
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
-
-### Utilities
-
-This Turborepo has some additional tools already setup for you:
-
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
-
-### Build
-
-To build all apps and packages, run the following command:
-
-```
-cd my-turborepo
-pnpm build
+```bash
+npm run dev
 ```
 
-### Develop
+The local dev server will run on `http://localhost:3000`.
 
-To develop all apps and packages, run the following command:
+## Build an app
 
-```
-cd my-turborepo
-pnpm dev
-```
+To build an app ready to be installed and used locally, run the following code
 
-### Remote Caching
-
-Turborepo can use a technique known as [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching) to share cache artifacts across machines, enabling you to share build caches with your team and CI/CD pipelines.
-
-By default, Turborepo will cache locally. To enable Remote Caching you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup), then enter the following commands:
-
-```
-cd my-turborepo
-npx turbo login
+```bash
+npm run tauri build
 ```
 
-This will authenticate the Turborepo CLI with your [Vercel account](https://vercel.com/docs/concepts/personal-accounts/overview).
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-Next, you can link your Turborepo to your Remote Cache by running the following command from the root of your Turborepo:
+## Features
 
-```
-npx turbo link
-```
-
-## Useful Links
-
-Learn more about the power of Turborepo:
-
-- [Tasks](https://turbo.build/repo/docs/core-concepts/monorepos/running-tasks)
-- [Caching](https://turbo.build/repo/docs/core-concepts/caching)
-- [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching)
-- [Filtering](https://turbo.build/repo/docs/core-concepts/monorepos/filtering)
-- [Configuration Options](https://turbo.build/repo/docs/reference/configuration)
-- [CLI Usage](https://turbo.build/repo/docs/reference/command-line-reference)
+- [x] Add global keyboard shortcut to toggle app
+- [x] `esc` hides app
+- [x] Add support for images
+- [ ] Add global reminders (reminders for tasks that are on a longer timescale) e.g: "Follow up with Adam on Monday"
+- [ ] Add timer in footer
+- [ ] Add Supabase backend

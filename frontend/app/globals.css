@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply text-slate-600;
+}
+
+@layer base {
+  h1 {
+    @apply text-xl text-slate-700 font-bold;
+  }
+  h2 {
+    @apply text-lg text-slate-700 font-bold;
+  }
+  h3 {
+    @apply text-lg font-semibold;
+  }
+  ul {
+    @apply pl-6 list-disc;
+  }
+  ul[data-type="taskList"] {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+
+    p {
+      margin: 0;
+    }
+
+    li {
+      display: flex;
+
+      > label {
+        flex: 0 0 auto;
+        margin-right: 0.5rem;
+        user-select: none;
+
+        > input[type="checkbox"] {
+          width: 16px;
+          height: 16px;
+        }
+      }
+
+      > div {
+        flex: 1 1 auto;
+      }
+
+      ul li,
+      ol li {
+        display: flex;
+      }
+
+      ul[data-type="taskList"] > li {
+        display: flex;
+      }
+    }
+
+    /* Checked */
+    li[data-checked="true"] {
+      p {
+        text-decoration: line-through;
+      }
+    }
+  }
+  ol {
+    @apply pl-6 list-decimal;
+  }
+  a {
+    @apply underline;
+  }
+  code {
+    @apply bg-slate-300 py-0.5 px-1 rounded text-[#616161];
+  }
+  img {
+    @apply max-w-full h-auto rounded-md my-5;
+  }
+  blockquote {
+    @apply pl-1 border-l-2 border-gray-200;
+  }
+  hr {
+    @apply border-none border-t-2 mt-2;
+  }
+  button {
+    @apply p-1 text-sm opacity-60 hover:opacity-100 transition-colors duration-300 rounded-md;
+  }
+  input {
+    @apply outline-none focus:text-slate-500 text-slate-400 text-sm p-2 focus:bg-slate-50 rounded-md;
+  }
+  textarea {
+    @apply outline-none focus:text-slate-500 text-slate-400 text-sm p-2 focus:bg-slate-50 rounded-md h-20 resize-none;
+  }
+}
+
+@layer components {
+  .is-active {
+    @apply bg-slate-300;
+  }
+}
