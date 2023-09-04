@@ -50,4 +50,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - [x] Add support for images
 - [ ] Add global reminders (reminders for tasks that are on a longer timescale) e.g: "Follow up with Adam on Monday"
 - [ ] Add timer in footer
-- [ ] Add Supabase backend
+- [x] Add Supabase backend
