@@ -1,0 +1,11 @@
+/Users/sarimmalik/Documents/GitHub/endo/src-tauri/target/debug/deps/url-3930ad7611377f9e.rmeta: /Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.4.0/src/lib.rs /Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.4.0/src/host.rs /Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.4.0/src/origin.rs /Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.4.0/src/parser.rs /Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.4.0/src/path_segments.rs /Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.4.0/src/slicing.rs /Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.4.0/src/quirks.rs
+
+/Users/sarimmalik/Documents/GitHub/endo/src-tauri/target/debug/deps/url-3930ad7611377f9e.d: /Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.4.0/src/lib.rs /Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.4.0/src/host.rs /Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.4.0/src/origin.rs /Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.4.0/src/parser.rs /Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.4.0/src/path_segments.rs /Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.4.0/src/slicing.rs /Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.4.0/src/quirks.rs
+
+/Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.4.0/src/lib.rs:
+/Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.4.0/src/host.rs:
+/Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.4.0/src/origin.rs:
+/Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.4.0/src/parser.rs:
+/Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.4.0/src/path_segments.rs:
+/Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.4.0/src/slicing.rs:
+/Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.4.0/src/quirks.rs:

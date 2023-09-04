@@ -1,0 +1,12 @@
+/Users/sarimmalik/Documents/GitHub/endo/src-tauri/target/debug/deps/mac-ef54644dd7e6221e.rmeta: /Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/mac-0.1.1/src/lib.rs /Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/mac-0.1.1/src/test.rs /Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/mac-0.1.1/src/mem.rs /Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/mac-0.1.1/src/format.rs /Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/mac-0.1.1/src/syntax_ext.rs /Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/mac-0.1.1/src/matches.rs /Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/mac-0.1.1/src/inspect.rs /Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/mac-0.1.1/src/cfg.rs
+
+/Users/sarimmalik/Documents/GitHub/endo/src-tauri/target/debug/deps/mac-ef54644dd7e6221e.d: /Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/mac-0.1.1/src/lib.rs /Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/mac-0.1.1/src/test.rs /Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/mac-0.1.1/src/mem.rs /Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/mac-0.1.1/src/format.rs /Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/mac-0.1.1/src/syntax_ext.rs /Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/mac-0.1.1/src/matches.rs /Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/mac-0.1.1/src/inspect.rs /Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/mac-0.1.1/src/cfg.rs
+
+/Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/mac-0.1.1/src/lib.rs:
+/Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/mac-0.1.1/src/test.rs:
+/Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/mac-0.1.1/src/mem.rs:
+/Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/mac-0.1.1/src/format.rs:
+/Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/mac-0.1.1/src/syntax_ext.rs:
+/Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/mac-0.1.1/src/matches.rs:
+/Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/mac-0.1.1/src/inspect.rs:
+/Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/mac-0.1.1/src/cfg.rs:

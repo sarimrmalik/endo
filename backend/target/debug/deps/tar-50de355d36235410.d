@@ -1,0 +1,12 @@
+/Users/sarimmalik/Documents/GitHub/endo/src-tauri/target/debug/deps/tar-50de355d36235410.rmeta: /Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tar-0.4.40/src/lib.rs /Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tar-0.4.40/src/archive.rs /Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tar-0.4.40/src/builder.rs /Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tar-0.4.40/src/entry.rs /Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tar-0.4.40/src/entry_type.rs /Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tar-0.4.40/src/error.rs /Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tar-0.4.40/src/header.rs /Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tar-0.4.40/src/pax.rs
+
+/Users/sarimmalik/Documents/GitHub/endo/src-tauri/target/debug/deps/tar-50de355d36235410.d: /Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tar-0.4.40/src/lib.rs /Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tar-0.4.40/src/archive.rs /Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tar-0.4.40/src/builder.rs /Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tar-0.4.40/src/entry.rs /Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tar-0.4.40/src/entry_type.rs /Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tar-0.4.40/src/error.rs /Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tar-0.4.40/src/header.rs /Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tar-0.4.40/src/pax.rs
+
+/Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tar-0.4.40/src/lib.rs:
+/Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tar-0.4.40/src/archive.rs:
+/Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tar-0.4.40/src/builder.rs:
+/Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tar-0.4.40/src/entry.rs:
+/Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tar-0.4.40/src/entry_type.rs:
+/Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tar-0.4.40/src/error.rs:
+/Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tar-0.4.40/src/header.rs:
+/Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tar-0.4.40/src/pax.rs:

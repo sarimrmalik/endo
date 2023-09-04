@@ -1,0 +1,3 @@
+cargo:rerun-if-changed=build/main.rs
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=/Users/sarimmalik/Documents/GitHub/endo/src-tauri/target/debug/build/typenum-7f86b78698f10e32/out/consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=/Users/sarimmalik/Documents/GitHub/endo/src-tauri/target/debug/build/typenum-7f86b78698f10e32/out/op.rs

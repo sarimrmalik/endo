@@ -1,0 +1,7 @@
+cargo:rustc-cfg=dev
+cargo:rustc-cfg=desktop
+cargo:rustc-cfg=window_show
+cargo:rustc-cfg=window_hide
+cargo:rustc-cfg=window_any
+cargo:rustc-cfg=global_shortcut_all
+cargo:rustc-cfg=global_shortcut_any

@@ -1,0 +1,4 @@
+cargo:rustc-cfg=dev
+cargo:rustc-cfg=desktop
+cargo:rustc-cfg=global_shortcut_all
+cargo:rustc-cfg=global_shortcut_any

@@ -1,0 +1,10 @@
+/Users/sarimmalik/Documents/GitHub/endo/src-tauri/target/debug/deps/tauri_build-04771afded6913bb.rmeta: /Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-build-1.4.0/src/lib.rs /Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-build-1.4.0/src/allowlist.rs /Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-build-1.4.0/src/static_vcruntime.rs /Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-build-1.4.0/src/window-app-manifest.xml
+
+/Users/sarimmalik/Documents/GitHub/endo/src-tauri/target/debug/deps/libtauri_build-04771afded6913bb.rlib: /Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-build-1.4.0/src/lib.rs /Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-build-1.4.0/src/allowlist.rs /Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-build-1.4.0/src/static_vcruntime.rs /Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-build-1.4.0/src/window-app-manifest.xml
+
+/Users/sarimmalik/Documents/GitHub/endo/src-tauri/target/debug/deps/tauri_build-04771afded6913bb.d: /Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-build-1.4.0/src/lib.rs /Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-build-1.4.0/src/allowlist.rs /Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-build-1.4.0/src/static_vcruntime.rs /Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-build-1.4.0/src/window-app-manifest.xml
+
+/Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-build-1.4.0/src/lib.rs:
+/Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-build-1.4.0/src/allowlist.rs:
+/Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-build-1.4.0/src/static_vcruntime.rs:
+/Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-build-1.4.0/src/window-app-manifest.xml:

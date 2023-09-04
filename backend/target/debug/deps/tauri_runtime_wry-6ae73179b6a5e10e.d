@@ -1,0 +1,9 @@
+/Users/sarimmalik/Documents/GitHub/endo/src-tauri/target/debug/deps/tauri_runtime_wry-6ae73179b6a5e10e.rmeta: /Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-runtime-wry-0.14.0/src/lib.rs /Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-runtime-wry-0.14.0/src/webview.rs /Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-runtime-wry-0.14.0/src/system_tray.rs /Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-runtime-wry-0.14.0/src/global_shortcut.rs /Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-runtime-wry-0.14.0/src/clipboard.rs
+
+/Users/sarimmalik/Documents/GitHub/endo/src-tauri/target/debug/deps/tauri_runtime_wry-6ae73179b6a5e10e.d: /Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-runtime-wry-0.14.0/src/lib.rs /Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-runtime-wry-0.14.0/src/webview.rs /Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-runtime-wry-0.14.0/src/system_tray.rs /Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-runtime-wry-0.14.0/src/global_shortcut.rs /Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-runtime-wry-0.14.0/src/clipboard.rs
+
+/Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-runtime-wry-0.14.0/src/lib.rs:
+/Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-runtime-wry-0.14.0/src/webview.rs:
+/Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-runtime-wry-0.14.0/src/system_tray.rs:
+/Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-runtime-wry-0.14.0/src/global_shortcut.rs:
+/Users/sarimmalik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-runtime-wry-0.14.0/src/clipboard.rs:

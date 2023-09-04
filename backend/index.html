@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/src/styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tauri App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" src="/src/main.ts" defer></script>
+    <script>
+      function checkConnection() {
+        if (navigator.onLine) {
+          window.location.replace("https://google.com");
+        } else {
+          document.getElementById("no-internet").style.display = "block";
+        }
+      }
+
+      function reloadPage() {
+        location.reload();
+      }
+
+      window.addEventListener("DOMContentLoaded", function () {
+        checkConnection();
+
+        // Listen for offline event
+        window.addEventListener("offline", function () {
+          document.getElementById("no-internet").style.display = "block";
+        });
+
+        // Listen for online event
+        window.addEventListener("online", function () {
+          window.location.replace("https://google.com");
+        });
+      });
+    </script>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Welcome to Endo!</h1>
+      <!-- No Internet Div -->
+      <div id="no-internet" style="display: none">
+        <p>No Internet Connection.</p>
+        <button onclick="reloadPage()">Reload</button>
+      </div>
+    </div>
+  </body>
+</html>
