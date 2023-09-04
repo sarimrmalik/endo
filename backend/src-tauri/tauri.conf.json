@@ -16,6 +16,12 @@
       "shell": {
         "all": false,
         "open": true
+      },
+      "process": {
+        "all": false,
+        "exit": true,
+        "relaunch": false,
+        "relaunchDangerousAllowSymlinkMacos": false
       }
     },
     "bundle": {
@@ -31,7 +37,14 @@
       ]
     },
     "security": {
-      "csp": null
+      "csp": null,
+      "dangerousRemoteDomainIpcAccess": [
+        {
+          "windows": ["main"],
+          "domain": "endo.vercel.app",
+          "enableTauriAPI": true
+        }
+      ]
     },
     "macOSPrivateApi": true,
     "windows": [

@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Endo</title>
     <script type="module" src="/src/main.ts" defer></script>
+    <script src="https://cdn.tailwindcss.com"></script>
     <script>
       const domain = "https://endo.vercel.app";
+
       function checkConnection() {
         if (navigator.onLine) {
           window.location.replace(domain);
@@ -25,6 +27,7 @@
 
         // Listen for offline event
         window.addEventListener("offline", function () {
+          console.log("offline");
           window.location.reload();
         });
 
@@ -36,13 +39,19 @@
     </script>
   </head>
 
-  <body>
-    <div class="container">
-      <h1>Endo</h1>
-      <!-- No internet -->
-      <div id="no-internet" style="display: none">
+  <body class="h-screen rounded-md">
+    <div
+      class="bg-white text-slate-500 w-full h-full flex flex-col gap-5 items-center justify-center"
+    >
+      <h1 class="text-3xl font-bold">Endo</h1>
+      <div class="flex flex-col items-center gap-2">
         <p>No Internet Connection.</p>
-        <button onclick="reloadPage()">Reload</button>
+        <button
+          class="bg-slate-100 rounded-md p-2 outline-none border-none hover:bg-slate-200"
+          onclick="reloadPage()"
+        >
+          Reload
+        </button>
       </div>
     </div>
   </body>
