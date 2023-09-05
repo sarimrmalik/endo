@@ -8,7 +8,7 @@
 
 ## Introduction
 
-This is a [Next.js](https://nextjs.org/) and [Tauri](https://tauri.app/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and [`tauri init`](https://tauri.app/v1/guides/getting-started/setup/next-js/#create-the-rust-project). The text editor is an instance of [Tiptap](https://tiptap.dev/). The CSS is primarily [Tailwind](https://tailwindcss.com/docs).
+This is a [Next.js](https://nextjs.org/) and [Tauri](https://tauri.app/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and [`tauri init`](https://tauri.app/v1/guides/getting-started/setup/next-js/#create-the-rust-project). The text editor is an instance of [Tiptap](https://tiptap.dev/) bootstrapped using [Novel](https://novel.sh). The CSS is primarily [Tailwind](https://tailwindcss.com/docs).
 
 _Note: This repo is tested for macOS primarily, running on Windows may require additional debugging._
 
