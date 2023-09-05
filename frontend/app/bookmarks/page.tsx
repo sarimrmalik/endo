@@ -1,6 +1,6 @@
 function Bookmarks() {
   return (
-    <main className="p-5 rounded-md">
+    <main className="p-7 rounded-md">
       <h1>Bookmarks</h1>
     </main>
   );
