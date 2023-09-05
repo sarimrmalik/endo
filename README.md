@@ -19,6 +19,7 @@ First, make sure you are set up to run a Rust project. [Check documentation here
 Clone the repo, install depedancies, and run the development server:
 
 ```bash
+cd backend
 npm install
 npm run tauri dev
 ```
@@ -28,6 +29,7 @@ The local instance of the app should show in your menubar at this point.
 If you want to run the frontend only:
 
 ```bash
+cd frontend
 npm run dev
 ```
 
@@ -38,6 +40,7 @@ The local dev server will run on `http://localhost:3000`.
 To build an app ready to be installed and used locally, run the following code
 
 ```bash
+cd backend
 npm run tauri build
 ```
 
