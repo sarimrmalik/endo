@@ -7,6 +7,7 @@ import Link from "next/link";
 import CreateBookmarkDialog from "./create-bookmark-dialog";
 import GoalsButton from "./goals-button";
 import CreateGoalDialog from "./create-goal-dialog";
+import { parseDate } from "@/lib/utils";
 
 function Layout({ children }: { children: ReactNode }) {
   return (
@@ -16,7 +17,7 @@ function Layout({ children }: { children: ReactNode }) {
   );
 }
 
-function Footer() {
+function Footer({ date }: { date?: string }) {
   const pathname = usePathname();
   if (pathname === "/home")
     return (
@@ -42,14 +43,14 @@ function Footer() {
         {pathname === "/goals" && <CreateGoalDialog />}
       </Layout>
     );
-  else
+  else if (date)
     return (
       <Layout>
         <Link
           href="/home"
           className="no-underline hover:underline underline-offset-4 transition-all duration-300"
         >
-          <span className="text-sm">endo</span>
+          <span className="text-sm ml-6">{parseDate(date)}</span>
         </Link>
       </Layout>
     );

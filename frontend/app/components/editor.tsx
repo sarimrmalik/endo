@@ -1,4 +1,5 @@
 "use client";
+import { Editor as NovelEditor } from "novel";
 import { BubbleMenu, useEditor, EditorContent } from "@tiptap/react";
 import Placeholder from "@tiptap/extension-placeholder";
 import TaskItem from "@tiptap/extension-task-item";
@@ -18,6 +19,7 @@ import {
 } from "lucide-react";
 import { useEffect, useState } from "react";
 import { parseDate } from "@/lib/utils";
+import Footer from "./footer";
 
 const Toolbar = ({ editor }: { editor: any }) => {
   return (
@@ -170,10 +172,20 @@ const Editor = ({ entryDate }: { entryDate?: string }) => {
   }
 
   return (
-    <div className="flex flex-col gap-2 h-full">
-      <h1 className="text-slate-400">{parseDate(today)}</h1>
-      {editor && <Toolbar editor={editor} />}
-      <EditorContent editor={editor} />
+    <div className="flex flex-col h-full">
+      <NovelEditor
+        className="w-full mb-10 min-h-screen"
+        onUpdate={(editor) => {
+          if (editor) {
+            const json = editor.getHTML();
+            const notes = JSON.parse(localStorage.getItem("notes") || "{}");
+            notes[today] = json; // Update the entry for today's date
+            localStorage.setItem("notes", JSON.stringify(notes));
+          }
+        }}
+        storageKey="test"
+      />
+      <Footer date={today} />
     </div>
   );
 };
