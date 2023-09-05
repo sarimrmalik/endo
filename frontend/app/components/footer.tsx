@@ -50,7 +50,7 @@ function Footer({ date }: { date?: string }) {
           href="/home"
           className="no-underline hover:underline underline-offset-4 transition-all duration-300"
         >
-          <span className="text-sm ml-6">{parseDate(date)}</span>
+          <span className="text-sm">{parseDate(date)}</span>
         </Link>
       </Layout>
     );

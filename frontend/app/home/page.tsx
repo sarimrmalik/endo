@@ -25,7 +25,7 @@ function Home() {
   }, [notes]);
 
   return (
-    <main className="flex flex-col gap-2">
+    <main className="flex flex-col gap-2 p-5 rounded-md">
       <h1>Notes</h1>
       {/* Notes entries */}
       <div className="flex flex-col gap-2">

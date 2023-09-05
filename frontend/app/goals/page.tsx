@@ -1,6 +1,6 @@
 function Goals() {
   return (
-    <main>
+    <main className="p-5 rounded-md">
       <h1>Goals</h1>
     </main>
   );

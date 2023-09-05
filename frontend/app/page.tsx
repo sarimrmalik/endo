@@ -2,7 +2,7 @@ import Editor from "./components/editor";
 
 export default function Today() {
   return (
-    <main className="flex flex-col">
+    <main className="min-h-screen rounded-md">
       <Editor />
     </main>
   );
