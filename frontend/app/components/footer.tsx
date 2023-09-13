@@ -8,6 +8,7 @@ import CreateBookmarkDialog from "./create-bookmark-dialog";
 import GoalsButton from "./goals-button";
 import CreateGoalDialog from "./create-goal-dialog";
 import { parseDate } from "@/lib/utils";
+import MaximizeButton from "./maximize-button";
 
 function Layout({ children }: { children: ReactNode }) {
   return (
@@ -52,6 +53,7 @@ function Footer({ date }: { date?: string }) {
         >
           <span className="text-sm">{parseDate(date)}</span>
         </Link>
+        <MaximizeButton />
       </Layout>
     );
 }
