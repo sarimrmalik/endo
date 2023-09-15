@@ -12,7 +12,7 @@ import MaximizeButton from "./maximize-button";
 
 function Layout({ children }: { children: ReactNode }) {
   return (
-    <footer className="flex justify-between max-h-12 h-full items-center px-7 py-2 fixed left-0 bottom-0 w-full rounded-b-md border-t bg-white shadow-2xl">
+    <footer className="flex justify-between max-h-12 h-full items-center px-5 py-2 fixed left-0 bottom-0 w-full rounded-b-md border-t bg-white shadow-2xl">
       {children}
     </footer>
   );

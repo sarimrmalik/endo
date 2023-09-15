@@ -27,7 +27,7 @@ function Home() {
   }, []);
 
   return (
-    <main className="flex flex-col gap-2 p-7 rounded-md">
+    <main className="flex flex-col gap-2 p-5 rounded-md">
       <h1 className="text-xl text-slate-700 font-bold">Notes</h1>
       <div className="flex flex-col gap-2">
         {Object.keys(notes)

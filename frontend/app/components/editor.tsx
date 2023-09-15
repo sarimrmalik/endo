@@ -1,5 +1,4 @@
 "use client";
-import { Editor as NovelEditor } from "novel";
 import { BubbleMenu, useEditor, EditorContent } from "@tiptap/react";
 import Placeholder from "@tiptap/extension-placeholder";
 import TaskItem from "@tiptap/extension-task-item";
@@ -134,9 +133,9 @@ const Editor = ({ entryDate }: { entryDate?: string }) => {
       ],
       content: content,
       onUpdate: ({ editor }) => {
-        const json = editor.getHTML();
-        const notes = JSON.parse(localStorage.getItem("notes") || "{}");
-        notes[today] = json; // Update the entry for today's date
+        const json = editor.getJSON();
+        let notes = JSON.parse(localStorage.getItem(today) || "{}");
+        notes = json; // Update the entry
         localStorage.setItem("notes", JSON.stringify(notes));
       },
       editorProps: {
@@ -151,9 +150,7 @@ const Editor = ({ entryDate }: { entryDate?: string }) => {
 
   // Get content from local storage upon page load
   useEffect(() => {
-    const savedContent = JSON.parse(localStorage.getItem("notes") || "{}")[
-      today
-    ];
+    const savedContent = JSON.parse(localStorage.getItem(today) || "{}");
     if (savedContent) {
       setContent(savedContent);
     }
@@ -173,11 +170,11 @@ const Editor = ({ entryDate }: { entryDate?: string }) => {
 
   return (
     <>
-      <NovelEditor
-        className="w-full mb-10 min-h-screen rounded-md"
-        storageKey={today}
-        defaultValue=""
-      />
+      <div className="flex flex-col gap-2 h-full p-5">
+        <h1 className="text-slate-400">{parseDate(today)}</h1>
+        {editor && <Toolbar editor={editor} />}
+        <EditorContent editor={editor} />
+      </div>
       <Footer date={today} />
     </>
   );
